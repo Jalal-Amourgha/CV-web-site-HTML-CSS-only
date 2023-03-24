@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+.header {
+    background-color: #eee;
+    height: 60px;
+    width: 100%;
+}
+
+.icon {
+    height: 47px;
+    width: 60px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 4px;
+}
+
+.image-01 {
+    height: 670px;
+    width: 100%;
+    display: block;
+}
+
+h1, h2, h3 {
+    color: #1f2138;
+    position: absolute;
+}
+
+.header-01 {
+    position: absolute;
+    display: block;
+    margin-left: 40%;
+    margin-top: 16%;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.presentation {
+    display: block;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    margin-left: 40%;
+    margin-top: 22%;
+}
+
+.objectives {
+    display: flex;
+    background-color: #eee;
+    height: 450px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.object {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.icon-02-03 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+.icon-02-03:hover img{
+    color: dodgerblue;
+}
+
+
+.title {
+    margin-top: 120px;
+}
+
+ul {
+    position: absolute;
+    font-size: 22px;
+    line-height: 2;
+    margin-top: 200px;
+    color: #676990;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    width: 100%;
+}
+
+.title-ed {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 42%;
+    font-size: 50px;
+}
+
+.ed{
+    margin-top: 250px;
+    
+}
+
+.etude-icons {
+    height: 50px;
+    width: 50px;
+    margin-left: -269px;
+    margin-top: 15px;
+}
+
+.object-paragraph {
+    position: absolute;
+    margin-top: 150px;
+    height: 250px;
+    width: 350px;
+    line-height: 2;
+    color: #676990;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 100%;
+    background-color: #eee;
+}
+
+.portfolio {
+    position: absolute;
+    margin-top: 70px;
+    font-size: 50px;
+}
+
+.project {
+    margin-top: 200px;
+}
+
+.port-img {
+    height: 225px;
+    width: 400px;
+}
+
+.port-title {
+    margin-top: 260px;
+    margin-left: -170px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    height: 800px;
+    width: 100%;
+    background-color: white;
+}
+
+.title-about {
+    font-size: 50px;
+}
+
+.flex-about {
+    display: flex;
+    height: 670px;
+    width: 600px;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.about-paragraph {
+    position: absolute;
+    color: #080916;
+    line-height: 1.8;
+    font-size: 18px;
+    height: 275px;
+    width: 470px;
+}
+
+.color-change {
+    margin-top: 340px;
+    color: #676990;
+}
+
+.social {
+    background-color: #eee;
+    height: 400px;
+    width: 100%;
+}
+
+.title-contact {
+    margin-top: 50px;
+    margin-left: 43%;
+    font-size: 50px;
+}
+
+.social-one {
+    margin-top: 150px;
+    margin-left: 36%;
+    font-size: 30px;
+}
+
+.social-two {
+    margin-top: 210px;
+    margin-left: 37%;
+    color: #b495bf;
+    font-weight: 900;
+}
+
+.icons {
+    padding-top: 350px;
+    margin-left: 45%;
+
+}
+
+.end {
+    height: 73px;
+    width: 100%;
+    background-color: #080916;
+}
+
+.copy {
+    color: #b495bf;
+    text-align: center;
+    padding-top: 27px;
+}
