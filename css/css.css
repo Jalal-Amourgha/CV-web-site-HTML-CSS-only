@@ -1,225 +1,143 @@
-body {
-    margin: 0;
-    font-family: "Work Sans", sans-serif;
-}
-
-.header {
-    background-color: #eee;
-    height: 60px;
-    width: 100%;
-}
-
-.icon {
-    height: 47px;
-    width: 60px;
-    position: absolute;
-    margin-left: 150px;
-    margin-top: 4px;
-}
-
-.image-01 {
-    height: 670px;
-    width: 100%;
-    display: block;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 h1, h2, h3 {
     color: #1f2138;
-    position: absolute;
 }
 
-.header-01 {
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+
+.icon-01 {
+    height: 40px;
+    width: 50px;
+}
+
+
+
+.landing {
+    background-image: url(../images/image-02.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+    z-index: 0;
+}
+
+.landing .intro-text {
     position: absolute;
-    display: block;
-    margin-left: 40%;
-    margin-top: 16%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.landing .intro-text h1 {
+    margin: 0;
     font-weight: bold;
     font-size: 50px;
 }
 
-.presentation {
-    display: block;
-    position: absolute;
-    color: black;
-    font-size: 22px;
-    margin-left: 40%;
-    margin-top: 22%;
+.landing .intro-text p {
+    margin-top: 15px;
+    font-size: 19px;
+    line-height: 1.8;
+    font-style: italic;
 }
 
 .objectives {
-    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: #eee;
-    height: 450px;
-    width: 100%;
-    justify-content: space-evenly;
-}
-
-.object {
-    display: flex;
-    height: 400px;
-    width: 400px;
-    justify-content: space-evenly;
-    margin-top: 50px;
 }
 
 .icon-02-03 {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-}
-.icon-02-03:hover img{
-    color: dodgerblue;
-}
-
-
-.title {
-    margin-top: 120px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 ul {
-    position: absolute;
-    font-size: 22px;
-    line-height: 2;
-    margin-top: 200px;
+    list-style: none;
+    text-align: center;
     color: #676990;
 }
 
 .education {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.education-title {
+    text-align: center;
+    padding-bottom: 50px;
+    font-style: italic;
+    color: #1f2138;
+}
+
+.title {
+    text-align: center;
+    color: #1f2138;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon-02-04 {
+    height: 60px;
+    width: 60px;
     display: flex;
-    justify-content: space-between;
-    height: 700px;
-    width: 100%;
-}
-
-.title-ed {
-    position: absolute;
-    margin-top: 70px;
-    margin-left: 42%;
-    font-size: 50px;
-}
-
-.ed{
-    margin-top: 250px;
-    
-}
-
-.etude-icons {
-    height: 50px;
-    width: 50px;
-    margin-left: -269px;
-    margin-top: 15px;
+    justify-content: center;
 }
 
 .object-paragraph {
-    position: absolute;
-    margin-top: 150px;
-    height: 250px;
-    width: 350px;
-    line-height: 2;
     color: #676990;
-}
-
-.projects {
-    display: flex;
-    justify-content: space-evenly;
-    height: 600px;
-    width: 100%;
-    background-color: #eee;
-}
-
-.portfolio {
-    position: absolute;
-    margin-top: 70px;
-    font-size: 50px;
-}
-
-.project {
-    margin-top: 200px;
-}
-
-.port-img {
-    height: 225px;
-    width: 400px;
-}
-
-.port-title {
-    margin-top: 260px;
-    margin-left: -170px;
+    text-align: center;
+    line-height: 1.8;
 }
 
 .about {
-    display: flex;
-    justify-content: space-evenly;
-    height: 800px;
-    width: 100%;
-    background-color: white;
-}
-
-.title-about {
-    font-size: 50px;
-}
-
-.flex-about {
-    display: flex;
-    height: 670px;
-    width: 600px;
-    justify-content: space-evenly;
-    margin-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .about-paragraph {
-    position: absolute;
-    color: #080916;
+    color: #1f2138;
     line-height: 1.8;
-    font-size: 18px;
-    height: 275px;
-    width: 470px;
 }
 
 .color-change {
-    margin-top: 340px;
     color: #676990;
 }
 
 .social {
-    background-color: #eee;
-    height: 400px;
-    width: 100%;
-}
-
-.title-contact {
-    margin-top: 50px;
-    margin-left: 43%;
-    font-size: 50px;
-}
-
-.social-one {
-    margin-top: 150px;
-    margin-left: 36%;
-    font-size: 30px;
-}
-
-.social-two {
-    margin-top: 210px;
-    margin-left: 37%;
-    color: #b495bf;
-    font-weight: 900;
-}
-
-.icons {
-    padding-top: 350px;
-    margin-left: 45%;
-
-}
-
-.end {
-    height: 73px;
-    width: 100%;
     background-color: #080916;
 }
 
+.title-color {
+    padding-top: 30px;
+    color: #b495bf;
+}
+
+.icons {
+    text-align: center;
+}
 .copy {
     color: #b495bf;
     text-align: center;
     padding-top: 27px;
 }
+
+.social-one{
+    text-align: center;
+    color: #b495bf;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
